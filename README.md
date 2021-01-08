@@ -50,7 +50,3 @@ BATファイルを作ってより簡単に送信したり、時間を決めて�
 - [簡単プログラミング！LINEに自分で好きなメッセージを送ってみよう（exeファイルあり）](https://nemlog.nem.social/blog/54152) nemlog
 - [簡単プログラミング！LINEに自分で好きなメッセージを送ってみよう（exeファイルあり）](https://github.com/naoland/nemlog-54152) github
 - [naoland/nemlog-posts: nemlog投稿記事 メイン](https://github.com/naoland/nemlog-posts)
-
-
-
-nemlog-54152
