@@ -28,8 +28,8 @@ func main() {
 		log.Fatal("not text")
 	}
 
-	fmt.Println("token:", token)
-	fmt.Println("message:", message)
+	// fmt.Println("token:", token)
+	// fmt.Println("message:", message)
 
 	results, err := sendMessage(*token, message)
 	if err != nil {
@@ -37,7 +37,7 @@ func main() {
 		return
 	}
 
-	fmt.Printf("%s\n", results)
+	fmt.Printf("実行結果: %s\n", results)
 	// {"status":200,"message":"ok"}
 }
 
