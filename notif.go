@@ -20,12 +20,12 @@ func main() {
 	flag.Parse()
 
 	if *token == "" {
-		log.Fatal("not token")
+		log.Fatal("トークンがありません。")
 	}
 
 	message := flag.Arg(0)
 	if message == "" {
-		log.Fatal("not text")
+		log.Fatal("メッセージがありません。")
 	}
 
 	// fmt.Println("token:", token)
@@ -34,7 +34,6 @@ func main() {
 	results, err := sendMessage(*token, message)
 	if err != nil {
 		log.Fatal(err)
-		return
 	}
 
 	fmt.Printf("実行結果: %s\n", results)
