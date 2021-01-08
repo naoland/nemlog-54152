@@ -21,7 +21,7 @@ Gitbotの使い方がよくわからないという方や、皆さんにも手�
 `-token`の後ろがLINEのトークン（文字列）で、その後ろが送信したいメッセージです。
 
 ```
-go run notif.go -token KDJiqR84TRksLEwctIHgxrNrmEvgpV  テストメッセージです
+notif.exe -token KDJiqR84TRksLEwctIHgxrNrmEvgpV  テストメッセージです
 
 注）`KDJiqR84TRksLEwctIHgxrNrmEvgpV`は適当な文字列です、ご自身のトークンに置き換えて入力してください。
 ```
